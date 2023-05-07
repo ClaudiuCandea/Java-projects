@@ -1,0 +1,27 @@
+.navbar {
+    margin: 0;
+    
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: flex-end;
+}
+
+.links {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: auto;
+}
+
+.linkstyle {
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-left: 48%;
+    height: 5rem;
+}

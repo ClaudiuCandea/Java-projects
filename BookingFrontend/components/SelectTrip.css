@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+.buttonsM {
+    width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    display: block;
+}
+
+.buttonsgrid {
+    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+    max-width: 72rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.buttonframe {
+    box-sizing: border-box;
+    display: block;
+}
+
+.buttonbody {
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.buttonpicture {
+    margin: auto;
+    max-width: 100%;
+    width: 10rem;
+    display: block;
+    box-sizing: border-box;
+}
+
+.buttontext {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
